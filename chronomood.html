@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ChronoMood – Guru’s Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+  <!-- Include the same header/nav -->
+  <div id="header">
+    <div class="top">
+      <div id="logo">
+        <span class="image avatar48"><img src="images/guru.jpg" alt="Guru" /></span>
+        <h1 id="title">Guru</h1>
+        <p>Data Viz Fanatic &amp; Java Whisperer</p>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html#top"><span class="icon solid fa-home">Home</span></a></li>
+          <li><a href="index.html#portfolio"><span class="icon solid fa-th">Portfolio</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main">
+    <section class="two">
+      <div class="container">
+        <header>
+          <h2>ChronoMood Sentiment Tracker</h2>
+        </header>
+
+        <p><strong>Problem:</strong> How do moods shift over the course of a day?  
+        <strong>Solution:</strong> Collected ~100k geo-tagged tweets, ran VADER sentiment, and visualized hourly patterns.</p>
+
+        <h3>Tech Stack</h3>
+        <ul>
+          <li>Python &ndash; Pandas, VADER (NLTK)</li>
+          <li>Visualization &ndash; Matplotlib, Seaborn</li>
+          <li>Deployment &ndash; Jupyter Notebook, Binder</li>
+        </ul>
+
+        <h3>Screenshots / Demo</h3>
+        <img src="images/chronomood-dashboard.png" alt="ChronoMood Dashboard Screenshot" class="image fit" />
+
+        <h3>Key Takeaways</h3>
+        <ul>
+          <li>Identified a consistent 15% mood dip between 8–10 pm</li>
+          <li>Built a reusable ETL pipeline in 50 lines of code</li>
+        </ul>
+
+        <h3>Links</h3>
+        <ul class="actions stacked">
+          <li><a href="https://github.com/guru-goutham/ChronoMood" class="button">View on GitHub</a></li>
+          <li><a href="https://mybinder.org/v2/gh/guru-goutham/ChronoMood/main?filepath=notebook.ipynb" class="button">Run on Binder</a></li>
+        </ul>
+
+        <p><a href="index.html#portfolio" class="button primary">← Back to Portfolio</a></p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <ul class="copyright">
+      <li>&copy; Guru. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
